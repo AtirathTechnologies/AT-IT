@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="icon" type="image/png" href="icon.png">
-   <!-- ===== TITLE & BASIC META ===== -->
-  <title>Atirath Technology | Digital Growth Partner - Web Design, Development & Marketing</title>
+  <!-- ===== TITLE & BASIC META ===== -->
+  <title>Atirath Technologies | Digital Growth Partner - Web Design, Development & Marketing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atirath Technologies - Your trusted digital growth partner offering web design, web development, mobile apps, digital marketing, SEO, and branding services in Hyderabad, India.">
-  <meta name="keywords" content="web design, web development, digital marketing, SEO, mobile app development, branding, Hyderabad, India, Atirath Technologies">
+  <meta name="description"
+    content="Atirath Technologies - Your trusted digital growth partner offering web design, web development, mobile apps, digital marketing, SEO, and branding services in Hyderabad, India.">
+  <meta name="keywords"
+    content="web design, web development, digital marketing, SEO, mobile app development, branding, Hyderabad, India, Atirath Technologies">
   <meta name="author" content="Atirath Technologies">
   <meta name="robots" content="index, follow">
-  
+
   <!-- ===== OPEN GRAPH META TAGS ===== -->
   <meta property="og:title" content="Atirath Technology | Digital Growth Partner">
-  <meta property="og:description" content="Transform your digital presence with our innovative web design, development, and marketing solutions.">
+  <meta property="og:description"
+    content="Transform your digital presence with our innovative web design, development, and marketing solutions.">
   <meta property="og:image" content="https://atirathtechnologies.com/Atirath%20Technologies%20Transparent%20Logo.png">
   <meta property="og:url" content="https://atirathtechnologies.com">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Atirath Technologies">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Atirath Technologies",
+  "alternateName": "Atirath",
+  "url": "https://atirathtechnologies.com/"
+}
+</script>
+
+
   <meta property="og:locale" content="en_US">
-  
+
   <!-- ===== TWITTER CARD META TAGS ===== -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Atirath Technology | Digital Growth Partner">
-  <meta name="twitter:description" content="Transform your digital presence with our innovative web design, development, and marketing solutions.">
+  <meta name="twitter:description"
+    content="Transform your digital presence with our innovative web design, development, and marketing solutions.">
   <meta name="twitter:image" content="https://atirathtechnologies.com/Atirath%20Technologies%20Transparent%20Logo.png">
   <meta name="twitter:site" content="@atirathtech">
-  
+
   <!-- ===== CONTACT & BUSINESS META TAGS ===== -->
   <meta name="contact:country_name" content="India">
   <meta name="contact:region" content="Telangana">
@@ -37,7 +53,7 @@
   <meta name="contact:phone_number" content="+919676464756">
   <meta name="contact:website" content="https://atirathtechnologies.com">
   <meta name="business:hours" content="Mo-Fr 09:00-18:00">
-  
+
   <!-- ===== STRUCTURED DATA / JSON-LD ===== -->
   <script type="application/ld+json">
   {
@@ -74,7 +90,7 @@
   <!-- Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
+
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Font Awesome for icons -->
@@ -103,7 +119,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: 
+      background:
         radial-gradient(circle at 20% 30%, rgba(124, 250, 255, 0.05) 0%, transparent 50%),
         radial-gradient(circle at 80% 70%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
         radial-gradient(circle at 40% 80%, rgba(255, 107, 157, 0.03) 0%, transparent 50%);
@@ -112,8 +128,13 @@
     }
 
     @keyframes bgFloat {
-      0% { transform: scale(1) rotate(0deg); }
-      100% { transform: scale(1.1) rotate(2deg); }
+      0% {
+        transform: scale(1) rotate(0deg);
+      }
+
+      100% {
+        transform: scale(1.1) rotate(2deg);
+      }
     }
 
     /* ===== Hero Background ===== */
@@ -129,10 +150,10 @@
     }
 
     .hero-overlay {
-      background: linear-gradient(135deg, 
-        rgba(3, 7, 30, 0.85) 0%, 
-        rgba(10, 26, 60, 0.85) 50%, 
-        rgba(2, 6, 23, 0.95) 100%);
+      background: linear-gradient(135deg,
+          rgba(3, 7, 30, 0.85) 0%,
+          rgba(10, 26, 60, 0.85) 50%,
+          rgba(2, 6, 23, 0.95) 100%);
       position: absolute;
       inset: 0;
       z-index: -1;
@@ -140,7 +161,8 @@
 
     /* ===== Brand Title ===== */
     .brand-title {
-      font-size: 1.6rem; /* Reduced from 1.8rem */
+      font-size: 1.6rem;
+      /* Reduced from 1.8rem */
       font-weight: 900;
       background: linear-gradient(135deg, #7cfaff 0%, #8b5cf6 50%, #ff6b9d 100%);
       background-size: 200% auto;
@@ -148,17 +170,25 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
       text-shadow: 0 0 30px rgba(139, 92, 246, 0.4);
-      letter-spacing: 0.5px; /* Reduced from 1px */
+      letter-spacing: 0.5px;
+      /* Reduced from 1px */
       position: relative;
       display: inline-block;
-      padding: 0 5px; /* Reduced from 10px */
+      padding: 0 5px;
+      /* Reduced from 10px */
       animation: titleGlow 3s ease-in-out infinite alternate;
-      line-height: 1; /* Added to reduce vertical space */
+      line-height: 1;
+      /* Added to reduce vertical space */
     }
 
     @keyframes titleGlow {
-      0% { text-shadow: 0 0 20px rgba(139, 92, 246, 0.4); }
-      100% { text-shadow: 0 0 40px rgba(124, 250, 255, 0.6); }
+      0% {
+        text-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+      }
+
+      100% {
+        text-shadow: 0 0 40px rgba(124, 250, 255, 0.6);
+      }
     }
 
     /* ===== Glass Navbar ===== */
@@ -368,7 +398,7 @@
 
     /* ===== Brand Shine ===== */
     .brand-shine {
-      background: linear-gradient(120deg,#7cfaff,#8b5cf6,#7cfaff);
+      background: linear-gradient(120deg, #7cfaff, #8b5cf6, #7cfaff);
       background-size: 200% auto;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -376,7 +406,9 @@
     }
 
     @keyframes shine {
-      to { background-position: 200% center; }
+      to {
+        background-position: 200% center;
+      }
     }
 
     /* ===== Services Cards with Auto Rotation ===== */
@@ -400,8 +432,13 @@
     }
 
     @keyframes slideCards {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(calc(-370px * 3 - 60px)); }
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(calc(-370px * 3 - 60px));
+      }
     }
 
     .services-container:hover .cards-track {
@@ -480,9 +517,11 @@
       0% {
         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
       }
+
       70% {
         box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
       }
+
       100% {
         box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
       }
@@ -666,7 +705,7 @@
 
     /* ===== Logo in Navbar - SIGNIFICANTLY REDUCED ===== */
     .navbar-logo {
-      height:60px;
+      height: 60px;
       width: 265px;
       margin-right: 5px;
       filter: drop-shadow(0 0 10px rgba(55, 56, 56, 0.5));
@@ -821,42 +860,42 @@
     /* ============================ */
     /* ENHANCED RESPONSIVE DESIGN   */
     /* ============================ */
-    
+
     /* Extra Small Devices (iPhone SE, very small phones) */
     @media (max-width: 320px) {
       .hero-section h2 {
         font-size: 2.2rem !important;
         line-height: 1.2;
       }
-      
+
       .hero-section p {
         font-size: 1rem !important;
       }
-      
+
       .service-card {
         width: 280px;
         height: 380px;
         padding: 1.5rem 1rem;
       }
-      
+
       .card-icon {
         font-size: 2.5rem;
         height: 60px;
       }
-      
+
       .card-title {
         font-size: 1.4rem;
       }
-      
+
       .brand-title {
         font-size: 0.9rem;
         letter-spacing: 0.3px;
       }
-      
+
       .navbar-logo {
         height: 35px;
       }
-      
+
       .whatsapp-float-left {
         width: 50px;
         height: 50px;
@@ -864,38 +903,38 @@
         bottom: 15px;
         left: 15px;
       }
-      
+
       .scroll-down-arrow {
         width: 40px;
         height: 40px;
         bottom: 15px;
         right: 15px;
       }
-      
+
       .small-hero-button {
         padding: 8px 18px;
         font-size: 12px;
       }
-      
+
       .section-padding {
         padding-top: 40px;
         padding-bottom: 40px;
       }
-      
+
       .footer-grid {
         grid-template-columns: 1fr;
         gap: 25px;
       }
-      
+
       .footer-column {
         padding: 0 !important;
         border: none !important;
       }
-      
+
       .unique-footer {
         padding: 30px 0 15px 0;
       }
-      
+
       .mobile-menu-slide {
         width: 250px;
       }
@@ -906,55 +945,55 @@
       .hero-section h2 {
         font-size: 2.8rem !important;
       }
-      
+
       .hero-section p {
         font-size: 1.1rem !important;
       }
-      
+
       .service-card {
         width: 300px;
         height: 400px;
         padding: 2rem 1.5rem;
       }
-      
+
       .card-icon {
         font-size: 3rem;
         height: 70px;
       }
-      
+
       .card-title {
         font-size: 1.6rem;
       }
-      
+
       .brand-title {
         font-size: 1rem;
       }
-      
+
       .navbar-logo {
         height: 40px;
       }
-      
+
       .whatsapp-float-left {
         width: 60px;
         height: 60px;
         font-size: 28px;
       }
-      
+
       .scroll-down-arrow {
         width: 45px;
         height: 45px;
       }
-      
+
       .small-hero-button {
         padding: 10px 22px;
         font-size: 13px;
       }
-      
+
       .section-padding {
         padding-top: 50px;
         padding-bottom: 50px;
       }
-      
+
       .mobile-menu-slide {
         width: 280px;
       }
@@ -965,49 +1004,54 @@
       .hero-section h2 {
         font-size: 3.5rem !important;
       }
-      
+
       .hero-section p {
         font-size: 1.3rem !important;
       }
-      
+
       .service-card {
         width: 320px;
         height: 420px;
       }
-      
+
       .cards-track {
         animation: slideCardsMobile 25s linear infinite;
       }
-      
+
       @keyframes slideCardsMobile {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(calc(-320px * 3 - 60px)); }
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(calc(-320px * 3 - 60px));
+        }
       }
-      
+
       .brand-title {
         font-size: 1.2rem;
       }
-      
+
       .navbar-logo {
         height: 45px;
       }
-      
+
       .footer-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
       }
-      
+
       .footer-column:first-child {
         padding-right: 0;
         border-right: none;
       }
-      
+
       .footer-column:nth-child(2),
       .footer-column:nth-child(3) {
         padding-left: 0;
         padding-right: 0;
       }
-      
+
       .unique-footer {
         padding: 40px 0 20px 0;
       }
@@ -1018,29 +1062,29 @@
       .hero-section h2 {
         font-size: 4.5rem !important;
       }
-      
+
       .hero-section p {
         font-size: 1.5rem !important;
       }
-      
+
       .service-card {
         width: 340px;
         height: 440px;
       }
-      
+
       .brand-title {
         font-size: 1.4rem;
       }
-      
+
       .navbar-logo {
         height: 50px;
       }
-      
+
       .footer-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
       }
-      
+
       .footer-column:first-child {
         padding-right: 0;
         border-right: none;
@@ -1052,24 +1096,24 @@
       .hero-section h2 {
         font-size: 5.5rem !important;
       }
-      
+
       .hero-section p {
         font-size: 1.7rem !important;
       }
-      
+
       .service-card {
         width: 360px;
         height: 460px;
       }
-      
+
       .cards-track {
         max-width: 1400px;
       }
-      
+
       .brand-title {
         font-size: 1.6rem;
       }
-      
+
       .navbar-logo {
         height: 60px;
       }
@@ -1080,30 +1124,35 @@
       .hero-section h2 {
         font-size: 6.5rem !important;
       }
-      
+
       .hero-section p {
         font-size: 2rem !important;
       }
-      
+
       .service-card {
         width: 380px;
         height: 480px;
       }
-      
+
       .cards-track {
         max-width: 1600px;
         gap: 40px;
       }
-      
+
       @keyframes slideCards {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(calc(-380px * 3 - 80px)); }
+        0% {
+          transform: translateX(0);
+        }
+
+        100% {
+          transform: translateX(calc(-380px * 3 - 80px));
+        }
       }
-      
+
       .brand-title {
         font-size: 1.8rem;
       }
-      
+
       .navbar-logo {
         height: 70px;
       }
@@ -1114,30 +1163,32 @@
       .hero-section h2 {
         font-size: 8rem !important;
       }
-      
+
       .hero-section p {
         font-size: 2.5rem !important;
       }
-      
+
       .service-card {
         width: 400px;
         height: 500px;
       }
-      
+
       .cards-track {
         max-width: 1800px;
         gap: 50px;
       }
-      
+
       .brand-title {
         font-size: 2rem;
       }
-      
+
       .navbar-logo {
         height: 80px;
       }
-      
-      .container, .max-w-7xl, .max-w-6xl {
+
+      .container,
+      .max-w-7xl,
+      .max-w-6xl {
         max-width: 90% !important;
         margin-left: auto !important;
         margin-right: auto !important;
@@ -1150,16 +1201,16 @@
         min-height: 150vh !important;
         padding-top: 100px;
       }
-      
+
       .service-card {
         height: 350px;
       }
-      
+
       .section-padding {
         padding-top: 60px;
         padding-bottom: 60px;
       }
-      
+
       .mobile-menu-slide {
         width: 350px;
       }
@@ -1170,25 +1221,25 @@
       .hero-section h2 {
         font-size: 1.8rem !important;
       }
-      
+
       .hero-section p {
         font-size: 0.9rem !important;
       }
-      
+
       .service-card {
         width: 250px;
         height: 350px;
         padding: 1rem 0.8rem;
       }
-      
+
       .brand-title {
         font-size: 0.8rem;
       }
-      
+
       .navbar-logo {
         height: 30px;
       }
-      
+
       .mobile-menu-slide {
         width: 220px;
       }
@@ -1199,12 +1250,15 @@
       h3 {
         font-size: 2rem !important;
       }
-      
+
       h4 {
         font-size: 1.5rem !important;
       }
-      
-      p, li, a, span {
+
+      p,
+      li,
+      a,
+      span {
         font-size: 0.95rem !important;
       }
     }
@@ -1216,7 +1270,9 @@
     }
 
     /* Responsive Containers */
-    .container, .max-w-7xl, .max-w-6xl {
+    .container,
+    .max-w-7xl,
+    .max-w-6xl {
       width: 100%;
       padding-right: 15px;
       padding-left: 15px;
@@ -1229,11 +1285,11 @@
       .grid {
         grid-template-columns: 1fr !important;
       }
-      
+
       .grid-cols-2 {
         grid-template-columns: 1fr !important;
       }
-      
+
       .grid-cols-1 {
         grid-template-columns: 1fr !important;
       }
@@ -1244,15 +1300,15 @@
       .flex-row {
         flex-direction: column !important;
       }
-      
+
       .flex-col {
         flex-direction: column !important;
       }
-      
+
       .gap-16 {
         gap: 30px !important;
       }
-      
+
       .gap-8 {
         gap: 15px !important;
       }
@@ -1260,23 +1316,26 @@
 
     /* Touch-friendly elements for mobile */
     @media (max-width: 768px) {
-      button, 
+
+      button,
       .service-card,
       .social-btn,
       .small-hero-button,
       .form-input,
       .country-code-select {
-        min-height: 44px; /* Minimum touch target size */
+        min-height: 44px;
+        /* Minimum touch target size */
       }
-      
-      a, 
+
+      a,
       .dropdown-content a {
         padding: 12px 15px;
       }
     }
 
     /* Prevent horizontal scrolling */
-    body, html {
+    body,
+    html {
       max-width: 100%;
       overflow-x: hidden;
     }
@@ -1356,7 +1415,7 @@
     /* ==================================================
        IMPROVED PHONE INPUT RESPONSIVENESS
     ================================================== */
-    
+
     /* Responsive Phone Input Container */
     @media (max-width: 640px) {
       .phone-input-container {
@@ -1364,18 +1423,18 @@
         gap: 8px;
         align-items: stretch;
       }
-      
+
       .country-code-select {
         flex: 1;
         width: 100%;
         min-width: 100%;
       }
-      
+
       .phone-number-input {
         width: 100%;
       }
     }
-    
+
     /* Small screen adjustments */
     @media (max-width: 480px) {
       .country-code-select {
@@ -1383,38 +1442,38 @@
         padding: 0.8rem;
         background-position: right 0.8rem center;
       }
-      
+
       .form-input {
         padding: 0.8rem;
         font-size: 0.9rem;
       }
-      
+
       /* Contact form glass container */
       .glass {
         padding: 1.5rem !important;
       }
     }
-    
+
     /* Very small screens */
     @media (max-width: 360px) {
       .country-code-select {
         font-size: 0.85rem;
         padding: 0.7rem;
       }
-      
+
       .form-input {
         padding: 0.7rem;
         font-size: 0.85rem;
       }
     }
-    
+
     /* Landscape mode for phones */
     @media (max-height: 500px) and (orientation: landscape) {
       .phone-input-container {
         flex-direction: row;
         gap: 10px;
       }
-      
+
       .country-code-select {
         flex: 0 0 100px;
       }
@@ -1424,1051 +1483,1074 @@
 
 <body>
 
-<!-- ===== Hero Background ===== -->
-<div class="hero-bg"></div>
-<div class="hero-overlay"></div>
+  <!-- ===== Hero Background ===== -->
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
 
-<!-- ===== Mobile Menu Overlay ===== -->
-<div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+  <!-- ===== Mobile Menu Overlay ===== -->
+  <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 
-<!-- ===== Mobile Menu Slide Panel ===== -->
-<div class="mobile-menu-slide" id="mobileMenuSlide">
-  <div class="mobile-menu-header">
-    <h3>Menu</h3>
-    <button class="mobile-close-btn" id="mobileCloseBtn">
-      <i class="fas fa-times"></i>
-    </button>
-  </div>
-  
-  <div class="mobile-menu-links">
-    <a href="#home" class="mobile-menu-link">Home</a>
-    <a href="about.html" class="mobile-menu-link">About Us</a>
-    
-    <!-- Services with submenu -->
-    <div class="mobile-menu-item">
-      <a href="javascript:void(0)" class="mobile-menu-link mobile-services-toggle">
-        Services <i class="fas fa-chevron-down float-right mt-1"></i>
-      </a>
-      <div class="mobile-submenu" id="mobileServicesSubmenu">
-        <a href="web-design.html"><i class="fas fa-paint-brush text-violet-400"></i> Web Design</a>
-        <a href="web-development.html"><i class="fas fa-code text-cyan-400"></i> Web Development</a>
-        <a href="mobile-app.html"><i class="fas fa-mobile-alt text-blue-400"></i> Mobile Application</a>
-        <a href="digital-marketing.html"><i class="fas fa-chart-line text-pink-400"></i> Digital Marketing</a>
-        <a href="seo-optimization.html"><i class="fas fa-search text-green-400"></i> AEO & SEO strategies</a>
-        <a href="branding.html"><i class="fas fa-palette text-yellow-400"></i> Branding</a>
-      </div>
+  <!-- ===== Mobile Menu Slide Panel ===== -->
+  <div class="mobile-menu-slide" id="mobileMenuSlide">
+    <div class="mobile-menu-header">
+      <h3>Menu</h3>
+      <button class="mobile-close-btn" id="mobileCloseBtn">
+        <i class="fas fa-times"></i>
+      </button>
     </div>
-    
-    <a href="Portfolio.html" class="mobile-menu-link">Portfolio</a>
-    <a href="#contact" class="mobile-menu-link">Contact Us</a>
-    <a href="terms-and-conditions.html" class="mobile-menu-link">Terms & Conditions</a>
-  </div>
-</div>
 
-<!-- ===== WhatsApp Floating Button ===== -->
-<a href="https://wa.me/919676464756" class="whatsapp-float-left" target="_blank">
-  <i class="fab fa-whatsapp"></i>
-  <div class="whatsapp-tooltip-left">Chat with us!</div>
-</a>
+    <div class="mobile-menu-links">
+      <a href="#home" class="mobile-menu-link">Home</a>
+      <a href="about.html" class="mobile-menu-link">About Us</a>
 
-<!-- ===== Scroll Down Arrow ===== -->
-<div class="scroll-down-arrow" id="scrollArrow">
-  <i class="fas fa-arrow-down"></i>
-</div>
-
-<!-- ===== Navbar - FIXED SPACING ===== -->
-<nav class="fixed top-0 w-full z-50 nav-glass">
-  <div class="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
-    <div class="flex items-center gap-1">
-      <img src="AT 12.png" alt="Atirath Technology Logo" class="navbar-logo"
-            style="width:265px; height:60px; max-width:none;">
-      
-    </div>
-    <div class="hidden md:flex space-x-6 font-medium">
-      <a href="#home" class="hover:text-violet-400 transition hover:scale-105">Home</a>
-      <a href="about.html" class="hover:text-violet-400 transition hover:scale-105">About Us</a>
-     
-      <div class="dropdown">
-        <a href="#services" class="hover:text-violet-400 transition hover:scale-105 flex items-center gap-1">
-          Services <i class="fas fa-chevron-down text-xs ml-1"></i>
+      <!-- Services with submenu -->
+      <div class="mobile-menu-item">
+        <a href="javascript:void(0)" class="mobile-menu-link mobile-services-toggle">
+          Services <i class="fas fa-chevron-down float-right mt-1"></i>
         </a>
-        <div class="dropdown-content">
+        <div class="mobile-submenu" id="mobileServicesSubmenu">
           <a href="web-design.html"><i class="fas fa-paint-brush text-violet-400"></i> Web Design</a>
           <a href="web-development.html"><i class="fas fa-code text-cyan-400"></i> Web Development</a>
           <a href="mobile-app.html"><i class="fas fa-mobile-alt text-blue-400"></i> Mobile Application</a>
           <a href="digital-marketing.html"><i class="fas fa-chart-line text-pink-400"></i> Digital Marketing</a>
-          <a href="seo-optimization.html"><i class="fas fa-search text-green-400"></i> AEO & SEO Optimization</a>
+          <a href="seo-optimization.html"><i class="fas fa-search text-green-400"></i> AEO & SEO strategies</a>
           <a href="branding.html"><i class="fas fa-palette text-yellow-400"></i> Branding</a>
         </div>
       </div>
-      <a href="Portfolio.html" class="hover:text-violet-400 transition hover:scale-105">Portfolio</a>
-      <a href="#contact" class="hover:text-violet-400 transition hover:scale-105">Contact Us</a>
-      <a href="terms-and-conditions.html" class="hover:text-violet-400 transition hover:scale-105">Terms & Conditions</a>
+
+      <a href="Portfolio.html" class="mobile-menu-link">Portfolio</a>
+      <a href="#contact" class="mobile-menu-link">Contact Us</a>
+      <a href="terms-and-conditions.html" class="mobile-menu-link">Terms & Conditions</a>
     </div>
-    <button class="md:hidden mobile-menu-toggle" id="mobileMenuBtn">
-      <i class="fas fa-bars"></i>
-    </button>
   </div>
-</nav>
 
-<!-- ===== Hero ===== -->
-<section id="home" class="min-h-screen flex items-center justify-center px-6 relative section-bg hero-section">
-  <div class="text-center max-w-6xl mt-20">
-    <h2 class="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight hero-text-animation">
-      Transform Your <br>
-      <span class="brand-shine">Digital Presence</span>
-    </h2>
-    <p class="text-gray-200 text-xl md:text-2xl lg:text-3xl mb-10 tracking-wide hero-subtext">
-      Where <span class="font-bold text-violet-400">Innovation</span> Meets 
-      <span class="font-bold text-cyan-400">Strategy</span> • 
-      <span class="font-bold text-pink-400">Results</span> Driven
-    </p>
-    <button class="small-hero-button hero-button group" id="heroLaunchBtn">
-      <span>Launch Your Journey</span>
-      <i class="fas fa-rocket"></i>
-    </button>
+  <!-- ===== WhatsApp Floating Button ===== -->
+  <a href="https://wa.me/919676464756" class="whatsapp-float-left" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+    <div class="whatsapp-tooltip-left">Chat with us!</div>
+  </a>
+
+  <!-- ===== Scroll Down Arrow ===== -->
+  <div class="scroll-down-arrow" id="scrollArrow">
+    <i class="fas fa-arrow-down"></i>
   </div>
-</section>
 
-<!-- ===== About Section (Mini Preview) ===== -->
-<section id="about-preview" class="section-padding px-6 section-bg">
-  <div class="max-w-7xl mx-auto">
-    <div class="flex flex-col lg:flex-row items-center justify-center gap-16">
-      <div class="flex-1">
-        <h3 class="text-4xl md:text-5xl font-bold mb-6">
-          About <span class="brand-shine">Atirath Technologies</span>
-        </h3>
-        <p class="text-gray-300 text-lg mb-8 leading-relaxed">
-          We are a digital growth agency dedicated to transforming businesses through innovative strategies and cutting-edge technology. Our team combines creativity with technical expertise to deliver solutions that drive real results.
-        </p>
-        
-        <div class="grid grid-cols-2 gap-6 mb-10">
-          <div class="flex items-center gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 flex items-center justify-center">
-              <i class="fas fa-rocket text-white"></i>
-            </div>
-            <div>
-              <h4 class="font-bold text-lg">Fast Growth</h4>
-              <p class="text-gray-400 text-sm">Accelerate your digital presence</p>
-            </div>
-          </div>
-          
-          <div class="flex items-center gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 flex items-center justify-center">
-              <i class="fas fa-lightbulb text-white"></i>
-            </div>
-            <div>
-              <h4 class="font-bold text-lg">Innovative Solutions</h4>
-              <p class="text-gray-400 text-sm">Creative approaches to challenges</p>
-            </div>
-          </div>
-          
-          <div class="flex items-center gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-cyan-500 flex items-center justify-content-center">
-              <i class="fas fa-users text-white"></i>
-            </div>
-            <div>
-              <h4 class="font-bold text-lg">Expert Team</h4>
-              <p class="text-gray-400 text-sm">Industry specialists</p>
-            </div>
-          </div>
-          
-          <div class="flex items-center gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-pink-500 flex items-center justify-center">
-              <i class="fas fa-chart-line text-white"></i>
-            </div>
-            <div>
-              <h4 class="font-bold text-lg">Proven Results</h4>
-              <p class="text-gray-400 text-sm">Data-driven strategies</p>
-            </div>
+  <!-- ===== Navbar - FIXED SPACING ===== -->
+  <nav class="fixed top-0 w-full z-50 nav-glass">
+    <div class="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center">
+      <div class="flex items-center gap-1">
+        <img src="AT 12.png" alt="Atirath Technology Logo" class="navbar-logo"
+          style="width:265px; height:60px; max-width:none;">
+
+      </div>
+      <div class="hidden md:flex space-x-6 font-medium">
+        <a href="#home" class="hover:text-violet-400 transition hover:scale-105">Home</a>
+        <a href="about.html" class="hover:text-violet-400 transition hover:scale-105">About Us</a>
+
+        <div class="dropdown">
+          <a href="#services" class="hover:text-violet-400 transition hover:scale-105 flex items-center gap-1">
+            Services <i class="fas fa-chevron-down text-xs ml-1"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="web-design.html"><i class="fas fa-paint-brush text-violet-400"></i> Web Design</a>
+            <a href="web-development.html"><i class="fas fa-code text-cyan-400"></i> Web Development</a>
+            <a href="mobile-app.html"><i class="fas fa-mobile-alt text-blue-400"></i> Mobile Application</a>
+            <a href="digital-marketing.html"><i class="fas fa-chart-line text-pink-400"></i> Digital Marketing</a>
+            <a href="seo-optimization.html"><i class="fas fa-search text-green-400"></i> AEO & SEO Optimization</a>
+            <a href="branding.html"><i class="fas fa-palette text-yellow-400"></i> Branding</a>
           </div>
         </div>
-        
-        <a href="about.html" class="px-8 py-4 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 
+        <a href="Portfolio.html" class="hover:text-violet-400 transition hover:scale-105">Portfolio</a>
+        <a href="#contact" class="hover:text-violet-400 transition hover:scale-105">Contact Us</a>
+        <a href="terms-and-conditions.html" class="hover:text-violet-400 transition hover:scale-105">Terms &
+          Conditions</a>
+      </div>
+      <button class="md:hidden mobile-menu-toggle" id="mobileMenuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <section id="home" class="min-h-screen flex items-center justify-center px-6 relative section-bg hero-section">
+    <div class="text-center max-w-6xl mt-20">
+      <h2 class="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6 leading-tight hero-text-animation">
+        Transform Your <br>
+        <span class="brand-shine">Digital Presence</span>
+      </h2>
+      <p class="text-gray-200 text-xl md:text-2xl lg:text-3xl mb-10 tracking-wide hero-subtext">
+        Where <span class="font-bold text-violet-400">Innovation</span> Meets
+        <span class="font-bold text-cyan-400">Strategy</span> •
+        <span class="font-bold text-pink-400">Results</span> Driven
+      </p>
+      <button class="small-hero-button hero-button group" id="heroLaunchBtn">
+        <span>Launch Your Journey</span>
+        <i class="fas fa-rocket"></i>
+      </button>
+    </div>
+  </section>
+
+  <!-- ===== About Section (Mini Preview) ===== -->
+  <section id="about-preview" class="section-padding px-6 section-bg">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex flex-col lg:flex-row items-center justify-center gap-16">
+        <div class="flex-1">
+          <h3 class="text-4xl md:text-5xl font-bold mb-6">
+            About <span class="brand-shine">Atirath Technologies</span>
+          </h3>
+          <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+            We are a digital growth agency dedicated to transforming businesses through innovative strategies and
+            cutting-edge technology. Our team combines creativity with technical expertise to deliver solutions that
+            drive real results.
+          </p>
+
+          <div class="grid grid-cols-2 gap-6 mb-10">
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 flex items-center justify-center">
+                <i class="fas fa-rocket text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg">Fast Growth</h4>
+                <p class="text-gray-400 text-sm">Accelerate your digital presence</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 flex items-center justify-center">
+                <i class="fas fa-lightbulb text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg">Innovative Solutions</h4>
+                <p class="text-gray-400 text-sm">Creative approaches to challenges</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-cyan-500 flex items-center justify-content-center">
+                <i class="fas fa-users text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg">Expert Team</h4>
+                <p class="text-gray-400 text-sm">Industry specialists</p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-pink-500 flex items-center justify-center">
+                <i class="fas fa-chart-line text-white"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg">Proven Results</h4>
+                <p class="text-gray-400 text-sm">Data-driven strategies</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="about.html" class="px-8 py-4 rounded-full bg-gradient-to-r from-violet-600 to-cyan-500 
                       font-semibold hover:scale-105 transition-all duration-300 
                       shadow-xl hover:shadow-cyan-500/30 group inline-block">
-          <span class="flex items-center gap-3">
-            Learn More About Us
-            <span class="group-hover:translate-x-2 transition-transform">→</span>
-          </span>
-        </a>
-      </div>
-      
-      <div class="flex-1 flex justify-center">
-        <div class="relative">
-          <div class="w-96 h-96 rounded-3xl overflow-hidden glass border border-violet-500/30">
-            <img src="About Us.jpg" 
-                 alt="Atirath Technology Team" class="w-full h-full object-cover">
+            <span class="flex items-center gap-3">
+              Learn More About Us
+              <span class="group-hover:translate-x-2 transition-transform">→</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="flex-1 flex justify-center">
+          <div class="relative">
+            <div class="w-96 h-96 rounded-3xl overflow-hidden glass border border-violet-500/30">
+              <img src="About Us.jpg" alt="Atirath Technology Team" class="w-full h-full object-cover">
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== Services ===== -->
-<section id="services" class="section-padding px-6 section-bg">
-  <h3 class="text-center text-4xl font-bold mb-4">Our Services</h3>
-  <p class="text-center text-gray-400 mb-16 max-w-2xl mx-auto">We offer a comprehensive range of digital services to elevate your business to new heights</p>
-  
-  <div class="services-container">
-    <div class="cards-track">
-      <!-- Card 1 - Web Design -->
-      <div class="service-card" onclick="window.location.href='web-design.html'">
-        <div class="card-icon">
-          <i class="fas fa-paint-brush"></i>
-        </div>
-        <h4 class="card-title">Web Design</h4>
-        <p class="text-gray-300 mb-6">
-          Stunning, user-centric designs that captivate and convert visitors instantly.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-          <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> UI/UX Design</li>
-          <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Responsive Layouts</li>
-          <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Brand Integration</li>
-          <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Wireframing & Prototyping</li>
-        </ul>
-      </div>
+  <!-- ===== Services ===== -->
+  <section id="services" class="section-padding px-6 section-bg">
+    <h3 class="text-center text-4xl font-bold mb-4">Our Services</h3>
+    <p class="text-center text-gray-400 mb-16 max-w-2xl mx-auto">We offer a comprehensive range of digital services to
+      elevate your business to new heights</p>
 
-      <!-- Card 2 - Web Development -->
-      <div class="service-card" onclick="window.location.href='web-development.html'">
-        <div class="card-icon">
-          <i class="fas fa-code"></i>
+    <div class="services-container">
+      <div class="cards-track">
+        <!-- Card 1 - Web Design -->
+        <div class="service-card" onclick="window.location.href='web-design.html'">
+          <div class="card-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h4 class="card-title">Web Design</h4>
+          <p class="text-gray-300 mb-6">
+            Stunning, user-centric designs that captivate and convert visitors instantly.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> UI/UX Design</li>
+            <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Responsive Layouts</li>
+            <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Brand Integration</li>
+            <li><i class="fas fa-check-circle text-violet-400 mr-2"></i> Wireframing & Prototyping</li>
+          </ul>
         </div>
-        <h4 class="card-title">Web Development</h4>
-        <p class="text-gray-300 mb-6">
-          Robust, scalable websites built with cutting-edge technologies.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-          <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> Full-Stack Development</li>
-          <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> E-commerce Solutions</li>
-          <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> CMS Development</li>
-          <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> API Integration</li>
-        </ul>
-      </div>
 
-      <!-- Card 3 - Mobile Application -->
-      <div class="service-card" onclick="window.location.href='mobile-app.html'">
-        <div class="card-icon">
-          <i class="fas fa-mobile-alt"></i>
+        <!-- Card 2 - Web Development -->
+        <div class="service-card" onclick="window.location.href='web-development.html'">
+          <div class="card-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h4 class="card-title">Web Development</h4>
+          <p class="text-gray-300 mb-6">
+            Robust, scalable websites built with cutting-edge technologies.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> Full-Stack Development</li>
+            <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> E-commerce Solutions</li>
+            <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> CMS Development</li>
+            <li><i class="fas fa-check-circle text-cyan-400 mr-2"></i> API Integration</li>
+          </ul>
         </div>
-        <h4 class="card-title">Mobile Application</h4>
-        <p class="text-gray-300 mb-6">
-          Native and cross-platform mobile apps for iOS and Android platforms.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-          <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> iOS & Android Apps</li>
-          <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> Cross-Platform Solutions</li>
-          <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> App Store Optimization</li>
-          <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> UI/UX for Mobile</li>
-        </ul>
-      </div>
 
-      <!-- Card 4 - Digital Marketing -->
-      <div class="service-card" onclick="window.location.href='digital-marketing.html'">
-        <div class="card-icon">
-          <i class="fas fa-chart-line"></i>
+        <!-- Card 3 - Mobile Application -->
+        <div class="service-card" onclick="window.location.href='mobile-app.html'">
+          <div class="card-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h4 class="card-title">Mobile Application</h4>
+          <p class="text-gray-300 mb-6">
+            Native and cross-platform mobile apps for iOS and Android platforms.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> iOS & Android Apps</li>
+            <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> Cross-Platform Solutions</li>
+            <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> App Store Optimization</li>
+            <li><i class="fas fa-check-circle text-blue-400 mr-2"></i> UI/UX for Mobile</li>
+          </ul>
         </div>
-        <h4 class="card-title">Digital Marketing</h4>
-        <p class="text-gray-300 mb-6">
-          Data-driven strategies to boost your online visibility and conversions.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-         <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Email Marketing Campaigns</li>
-          <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Social Media Marketing</li>
-          <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> PPC Campaigns</li>
-          <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Content Strategy</li>
-        </ul>
-      </div>
 
-      <!-- Card 5 - SEO Optimization -->
-      <div class="service-card" onclick="window.location.href='seo-optimization.html'">
-        <div class="card-icon">
-          <i class="fas fa-search"></i>
+        <!-- Card 4 - Digital Marketing -->
+        <div class="service-card" onclick="window.location.href='digital-marketing.html'">
+          <div class="card-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h4 class="card-title">Digital Marketing</h4>
+          <p class="text-gray-300 mb-6">
+            Data-driven strategies to boost your online visibility and conversions.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Email Marketing Campaigns</li>
+            <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Social Media Marketing</li>
+            <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> PPC Campaigns</li>
+            <li><i class="fas fa-check-circle text-pink-400 mr-2"></i> Content Strategy</li>
+          </ul>
         </div>
-        <h4 class="card-title">AEO & SEO Strategies</h4>
-        <p class="text-gray-300 mb-6">
-          Boost your search engine rankings and drive organic traffic.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-          <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Keyword Research</li>
-          <li><i class="fas fa-check-circle text-green-400 mr-2"></i> On-Page SEO</li>
-          <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Technical SEO</li>
-          <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Link Building</li>
-        </ul>
-      </div>
 
-      <!-- Card 6 - Branding -->
-      <div class="service-card" onclick="window.location.href='branding.html'">
-        <div class="card-icon">
-          <i class="fas fa-palette"></i>
+        <!-- Card 5 - SEO Optimization -->
+        <div class="service-card" onclick="window.location.href='seo-optimization.html'">
+          <div class="card-icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <h4 class="card-title">AEO & SEO Strategies</h4>
+          <p class="text-gray-300 mb-6">
+            Boost your search engine rankings and drive organic traffic.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Keyword Research</li>
+            <li><i class="fas fa-check-circle text-green-400 mr-2"></i> On-Page SEO</li>
+            <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Technical SEO</li>
+            <li><i class="fas fa-check-circle text-green-400 mr-2"></i> Link Building</li>
+          </ul>
         </div>
-        <h4 class="card-title">Branding</h4>
-        <p class="text-gray-300 mb-6">
-          Create a powerful brand identity that resonates with your audience.
-        </p>
-        <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
-          <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Logo Design</li>
-          <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Brand Guidelines</li>
-          <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Visual Identity</li>
-          <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Brand Strategy</li>
-        </ul>
+
+        <!-- Card 6 - Branding -->
+        <div class="service-card" onclick="window.location.href='branding.html'">
+          <div class="card-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h4 class="card-title">Branding</h4>
+          <p class="text-gray-300 mb-6">
+            Create a powerful brand identity that resonates with your audience.
+          </p>
+          <ul class="text-left text-gray-400 text-sm space-y-3 flex-1">
+            <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Logo Design</li>
+            <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Brand Guidelines</li>
+            <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Visual Identity</li>
+            <li><i class="fas fa-check-circle text-yellow-400 mr-2"></i> Brand Strategy</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===== Contact ===== -->
-<section id="contact" class="section-padding px-6 section-bg">
-  <div class="max-w-6xl mx-auto">
-    <h3 class="text-center text-4xl md:text-5xl font-bold mb-4">Get In Touch</h3>
-    <p class="text-center text-gray-400 mb-16 max-w-2xl mx-auto">Ready to transform your digital presence? Let's start a conversation.</p>
-    
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <!-- Contact Form -->
-      <div class="glass rounded-3xl p-10">
-        <h4 class="text-2xl font-bold mb-8 text-center">Send Us a Message</h4>
-        <form id="contactForm" class="space-y-6">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label class="block text-gray-300 mb-2">Your Name <span class="text-red-400">*</span></label>
-              <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
-              <div id="nameError" class="error-message">Please enter your name</div>
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section-padding px-6 section-bg">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-center text-4xl md:text-5xl font-bold mb-4">Get In Touch</h3>
+      <p class="text-center text-gray-400 mb-16 max-w-2xl mx-auto">Ready to transform your digital presence? Let's start
+        a conversation.</p>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <div class="glass rounded-3xl p-10">
+          <h4 class="text-2xl font-bold mb-8 text-center">Send Us a Message</h4>
+          <form id="contactForm" class="space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <label class="block text-gray-300 mb-2">Your Name <span class="text-red-400">*</span></label>
+                <input type="text" id="name" class="form-input" placeholder="Enter your full name" required>
+                <div id="nameError" class="error-message">Please enter your name</div>
+              </div>
+              <div>
+                <label class="block text-gray-300 mb-2">Email Address <span class="text-red-400">*</span></label>
+                <input type="email" id="email" class="form-input" placeholder="example@domain.com" required>
+                <div id="emailError" class="error-message">Please enter a valid email address</div>
+              </div>
             </div>
+
             <div>
-              <label class="block text-gray-300 mb-2">Email Address <span class="text-red-400">*</span></label>
-              <input type="email" id="email" class="form-input" placeholder="example@domain.com" required>
-              <div id="emailError" class="error-message">Please enter a valid email address</div>
+              <label class="block text-gray-300 mb-2">Phone Number <span class="text-red-400">*</span></label>
+              <div class="phone-input-container">
+                <select id="countryCode" class="country-code-select">
+                  <option value="+1" data-flag="🇺🇸">🇺🇸 +1 (USA)</option>
+                  <option value="+91" data-flag="🇮🇳" selected>🇮🇳 +91 (India)</option>
+                  <option value="+44" data-flag="🇬🇧">🇬🇧 +44 (UK)</option>
+                  <option value="+61" data-flag="🇦🇺">🇦🇺 +61 (Australia)</option>
+                  <option value="+49" data-flag="🇩🇪">🇩🇪 +49 (Germany)</option>
+                  <option value="+33" data-flag="🇫🇷">🇫🇷 +33 (France)</option>
+                  <option value="+81" data-flag="🇯🇵">🇯🇵 +81 (Japan)</option>
+                  <option value="+86" data-flag="🇨🇳">🇨🇳 +86 (China)</option>
+                  <option value="+971" data-flag="🇦🇪">🇦🇪 +971 (UAE)</option>
+                  <option value="+966" data-flag="🇸🇦">🇸🇦 +966 (Saudi Arabia)</option>
+                  <option value="+65" data-flag="🇸🇬">🇸🇬 +65 (Singapore)</option>
+                  <option value="+60" data-flag="🇲🇾">🇲🇾 +60 (Malaysia)</option>
+                  <option value="+92" data-flag="🇵🇰">🇵🇰 +92 (Pakistan)</option>
+                  <option value="+880" data-flag="🇧🇩">🇧🇩 +880 (Bangladesh)</option>
+                  <option value="+94" data-flag="🇱🇰">🇱🇰 +94 (Sri Lanka)</option>
+                  <option value="+977" data-flag="🇳🇵">🇳🇵 +977 (Nepal)</option>
+                  <option value="+971" data-flag="🇦🇪">🇦🇪 +971 (UAE)</option>
+                  <option value="+98" data-flag="🇮🇷">🇮🇷 +98 (Iran)</option>
+                  <option value="+20" data-flag="🇪🇬">🇪🇬 +20 (Egypt)</option>
+                  <option value="+27" data-flag="🇿🇦">🇿🇦 +27 (South Africa)</option>
+                  <option value="+55" data-flag="🇧🇷">🇧🇷 +55 (Brazil)</option>
+                  <option value="+34" data-flag="🇪🇸">🇪🇸 +34 (Spain)</option>
+                  <option value="+39" data-flag="🇮🇹">🇮🇹 +39 (Italy)</option>
+                  <option value="+7" data-flag="🇷🇺">🇷🇺 +7 (Russia)</option>
+                  <option value="+82" data-flag="🇰🇷">🇰🇷 +82 (South Korea)</option>
+                  <option value="+66" data-flag="🇹🇭">🇹🇭 +66 (Thailand)</option>
+                  <option value="+63" data-flag="🇵🇭">🇵🇭 +63 (Philippines)</option>
+                  <option value="+62" data-flag="🇮🇩">🇮🇩 +62 (Indonesia)</option>
+                  <option value="+84" data-flag="🇻🇳">🇻🇳 +84 (Vietnam)</option>
+                  <option value="+90" data-flag="🇹🇷">🇹🇷 +90 (Turkey)</option>
+                  <option value="+41" data-flag="🇨🇭">🇨🇭 +41 (Switzerland)</option>
+                  <option value="+46" data-flag="🇸🇪">🇸🇪 +46 (Sweden)</option>
+                  <option value="+47" data-flag="🇳🇴">🇳🇴 +47 (Norway)</option>
+                  <option value="+45" data-flag="🇩🇰">🇩🇰 +45 (Denmark)</option>
+                  <option value="+358" data-flag="🇫🇮">🇫🇮 +358 (Finland)</option>
+                  <option value="+31" data-flag="🇳🇱">🇳🇱 +31 (Netherlands)</option>
+                  <option value="+32" data-flag="🇧🇪">🇧🇪 +32 (Belgium)</option>
+                  <option value="+43" data-flag="🇦🇹">🇦🇹 +43 (Austria)</option>
+                  <option value="+353" data-flag="🇮🇪">🇮🇪 +353 (Ireland)</option>
+                  <option value="+351" data-flag="🇵🇹">🇵🇹 +351 (Portugal)</option>
+                  <option value="+30" data-flag="🇬🇷">🇬🇷 +30 (Greece)</option>
+                  <option value="+48" data-flag="🇵🇱">🇵🇱 +48 (Poland)</option>
+                  <option value="+36" data-flag="🇭🇺">🇭🇺 +36 (Hungary)</option>
+                  <option value="+420" data-flag="🇨🇿">🇨🇿 +420 (Czech Republic)</option>
+                  <option value="+385" data-flag="🇭🇷">🇭🇷 +385 (Croatia)</option>
+                  <option value="+381" data-flag="🇷🇸">🇷🇸 +381 (Serbia)</option>
+                  <option value="+383" data-flag="🇽🇰">🇽🇰 +383 (Kosovo)</option>
+                  <option value="+370" data-flag="🇱🇹">🇱🇹 +370 (Lithuania)</option>
+                  <option value="+371" data-flag="🇱🇻">🇱🇻 +371 (Latvia)</option>
+                  <option value="+372" data-flag="🇪🇪">🇪🇪 +372 (Estonia)</option>
+                  <option value="+373" data-flag="🇲🇩">🇲🇩 +373 (Moldova)</option>
+                  <option value="+374" data-flag="🇦🇲">🇦🇲 +374 (Armenia)</option>
+                  <option value="+375" data-flag="🇧🇾">🇧🇾 +375 (Belarus)</option>
+                  <option value="+380" data-flag="🇺🇦">🇺🇦 +380 (Ukraine)</option>
+                  <option value="+381" data-flag="🇷🇸">🇷🇸 +381 (Serbia)</option>
+                  <option value="+385" data-flag="🇭🇷">🇭🇷 +385 (Croatia)</option>
+                  <option value="+386" data-flag="🇸🇮">🇸🇮 +386 (Slovenia)</option>
+                  <option value="+387" data-flag="🇧🇦">🇧🇦 +387 (Bosnia)</option>
+                  <option value="+389" data-flag="🇲🇰">🇲🇰 +389 (Macedonia)</option>
+                  <option value="+421" data-flag="🇸🇰">🇸🇰 +421 (Slovakia)</option>
+                  <option value="+423" data-flag="🇱🇮">🇱🇮 +423 (Liechtenstein)</option>
+                  <option value="+352" data-flag="🇱🇺">🇱🇺 +352 (Luxembourg)</option>
+                  <option value="+356" data-flag="🇲🇹">🇲🇹 +356 (Malta)</option>
+                  <option value="+357" data-flag="🇨🇾">🇨🇾 +357 (Cyprus)</option>
+                  <option value="+359" data-flag="🇧🇬">🇧🇬 +359 (Bulgaria)</option>
+                  <option value="+370" data-flag="🇱🇹">🇱🇹 +370 (Lithuania)</option>
+                  <option value="+371" data-flag="🇱🇻">🇱🇻 +371 (Latvia)</option>
+                  <option value="+372" data-flag="🇪🇪">🇪🇪 +372 (Estonia)</option>
+                </select>
+                <input type="tel" id="phone" class="form-input phone-number-input" placeholder="Enter Your Number"
+                  required maxlength="10">
+              </div>
+              <div id="phoneError" class="error-message">Please enter exactly 10 digits</div>
             </div>
-          </div>
-          
-          <div>
-            <label class="block text-gray-300 mb-2">Phone Number <span class="text-red-400">*</span></label>
-            <div class="phone-input-container">
-              <select id="countryCode" class="country-code-select">
-                <option value="+1" data-flag="🇺🇸">🇺🇸 +1 (USA)</option>
-                <option value="+91" data-flag="🇮🇳" selected>🇮🇳 +91 (India)</option>
-                <option value="+44" data-flag="🇬🇧">🇬🇧 +44 (UK)</option>
-                <option value="+61" data-flag="🇦🇺">🇦🇺 +61 (Australia)</option>
-                <option value="+49" data-flag="🇩🇪">🇩🇪 +49 (Germany)</option>
-                <option value="+33" data-flag="🇫🇷">🇫🇷 +33 (France)</option>
-                <option value="+81" data-flag="🇯🇵">🇯🇵 +81 (Japan)</option>
-                <option value="+86" data-flag="🇨🇳">🇨🇳 +86 (China)</option>
-                <option value="+971" data-flag="🇦🇪">🇦🇪 +971 (UAE)</option>
-                <option value="+966" data-flag="🇸🇦">🇸🇦 +966 (Saudi Arabia)</option>
-                <option value="+65" data-flag="🇸🇬">🇸🇬 +65 (Singapore)</option>
-                <option value="+60" data-flag="🇲🇾">🇲🇾 +60 (Malaysia)</option>
-                <option value="+92" data-flag="🇵🇰">🇵🇰 +92 (Pakistan)</option>
-                <option value="+880" data-flag="🇧🇩">🇧🇩 +880 (Bangladesh)</option>
-                <option value="+94" data-flag="🇱🇰">🇱🇰 +94 (Sri Lanka)</option>
-                <option value="+977" data-flag="🇳🇵">🇳🇵 +977 (Nepal)</option>
-                <option value="+971" data-flag="🇦🇪">🇦🇪 +971 (UAE)</option>
-                <option value="+98" data-flag="🇮🇷">🇮🇷 +98 (Iran)</option>
-                <option value="+20" data-flag="🇪🇬">🇪🇬 +20 (Egypt)</option>
-                <option value="+27" data-flag="🇿🇦">🇿🇦 +27 (South Africa)</option>
-                <option value="+55" data-flag="🇧🇷">🇧🇷 +55 (Brazil)</option>
-                <option value="+34" data-flag="🇪🇸">🇪🇸 +34 (Spain)</option>
-                <option value="+39" data-flag="🇮🇹">🇮🇹 +39 (Italy)</option>
-                <option value="+7" data-flag="🇷🇺">🇷🇺 +7 (Russia)</option>
-                <option value="+82" data-flag="🇰🇷">🇰🇷 +82 (South Korea)</option>
-                <option value="+66" data-flag="🇹🇭">🇹🇭 +66 (Thailand)</option>
-                <option value="+63" data-flag="🇵🇭">🇵🇭 +63 (Philippines)</option>
-                <option value="+62" data-flag="🇮🇩">🇮🇩 +62 (Indonesia)</option>
-                <option value="+84" data-flag="🇻🇳">🇻🇳 +84 (Vietnam)</option>
-                <option value="+90" data-flag="🇹🇷">🇹🇷 +90 (Turkey)</option>
-                <option value="+41" data-flag="🇨🇭">🇨🇭 +41 (Switzerland)</option>
-                <option value="+46" data-flag="🇸🇪">🇸🇪 +46 (Sweden)</option>
-                <option value="+47" data-flag="🇳🇴">🇳🇴 +47 (Norway)</option>
-                <option value="+45" data-flag="🇩🇰">🇩🇰 +45 (Denmark)</option>
-                <option value="+358" data-flag="🇫🇮">🇫🇮 +358 (Finland)</option>
-                <option value="+31" data-flag="🇳🇱">🇳🇱 +31 (Netherlands)</option>
-                <option value="+32" data-flag="🇧🇪">🇧🇪 +32 (Belgium)</option>
-                <option value="+43" data-flag="🇦🇹">🇦🇹 +43 (Austria)</option>
-                <option value="+353" data-flag="🇮🇪">🇮🇪 +353 (Ireland)</option>
-                <option value="+351" data-flag="🇵🇹">🇵🇹 +351 (Portugal)</option>
-                <option value="+30" data-flag="🇬🇷">🇬🇷 +30 (Greece)</option>
-                <option value="+48" data-flag="🇵🇱">🇵🇱 +48 (Poland)</option>
-                <option value="+36" data-flag="🇭🇺">🇭🇺 +36 (Hungary)</option>
-                <option value="+420" data-flag="🇨🇿">🇨🇿 +420 (Czech Republic)</option>
-                <option value="+385" data-flag="🇭🇷">🇭🇷 +385 (Croatia)</option>
-                <option value="+381" data-flag="🇷🇸">🇷🇸 +381 (Serbia)</option>
-                <option value="+383" data-flag="🇽🇰">🇽🇰 +383 (Kosovo)</option>
-                <option value="+370" data-flag="🇱🇹">🇱🇹 +370 (Lithuania)</option>
-                <option value="+371" data-flag="🇱🇻">🇱🇻 +371 (Latvia)</option>
-                <option value="+372" data-flag="🇪🇪">🇪🇪 +372 (Estonia)</option>
-                <option value="+373" data-flag="🇲🇩">🇲🇩 +373 (Moldova)</option>
-                <option value="+374" data-flag="🇦🇲">🇦🇲 +374 (Armenia)</option>
-                <option value="+375" data-flag="🇧🇾">🇧🇾 +375 (Belarus)</option>
-                <option value="+380" data-flag="🇺🇦">🇺🇦 +380 (Ukraine)</option>
-                <option value="+381" data-flag="🇷🇸">🇷🇸 +381 (Serbia)</option>
-                <option value="+385" data-flag="🇭🇷">🇭🇷 +385 (Croatia)</option>
-                <option value="+386" data-flag="🇸🇮">🇸🇮 +386 (Slovenia)</option>
-                <option value="+387" data-flag="🇧🇦">🇧🇦 +387 (Bosnia)</option>
-                <option value="+389" data-flag="🇲🇰">🇲🇰 +389 (Macedonia)</option>
-                <option value="+421" data-flag="🇸🇰">🇸🇰 +421 (Slovakia)</option>
-                <option value="+423" data-flag="🇱🇮">🇱🇮 +423 (Liechtenstein)</option>
-                <option value="+352" data-flag="🇱🇺">🇱🇺 +352 (Luxembourg)</option>
-                <option value="+356" data-flag="🇲🇹">🇲🇹 +356 (Malta)</option>
-                <option value="+357" data-flag="🇨🇾">🇨🇾 +357 (Cyprus)</option>
-                <option value="+359" data-flag="🇧🇬">🇧🇬 +359 (Bulgaria)</option>
-                <option value="+370" data-flag="🇱🇹">🇱🇹 +370 (Lithuania)</option>
-                <option value="+371" data-flag="🇱🇻">🇱🇻 +371 (Latvia)</option>
-                <option value="+372" data-flag="🇪🇪">🇪🇪 +372 (Estonia)</option>
+
+            <div>
+              <label class="block text-gray-300 mb-2">Service Interested In</label>
+              <select id="service" class="form-input">
+                <option value="">Select a service</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Mobile Application">Mobile Application</option>
+                <option value="Digital Marketing">Digital Marketing</option>
+                <option value="SEO Optimization">AEO & SEO strategies</option>
+                <option value="Branding">Branding</option>
               </select>
-              <input type="tel" id="phone" class="form-input phone-number-input" placeholder="Enter Your Number" required maxlength="10">
             </div>
-            <div id="phoneError" class="error-message">Please enter exactly 10 digits</div>
-          </div>
-          
-          <div>
-            <label class="block text-gray-300 mb-2">Service Interested In</label>
-            <select id="service" class="form-input">
-              <option value="">Select a service</option>
-              <option value="Web Design">Web Design</option>
-              <option value="Web Development">Web Development</option>
-              <option value="Mobile Application">Mobile Application</option>
-              <option value="Digital Marketing">Digital Marketing</option>
-              <option value="SEO Optimization">AEO & SEO strategies</option>
-              <option value="Branding">Branding</option>
-            </select>
-          </div>
-          
-          <div>
-            <label class="block text-gray-300 mb-2">Your Message <span class="text-red-400">*</span></label>
-            <textarea id="message" rows="5" class="form-input" placeholder="Tell us about your project..." required></textarea>
-            <div id="messageError" class="error-message">Please enter your message</div>
-          </div>
-          
-          <div class="text-center">
-            <button type="submit" class="px-10 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 
+
+            <div>
+              <label class="block text-gray-300 mb-2">Your Message <span class="text-red-400">*</span></label>
+              <textarea id="message" rows="5" class="form-input" placeholder="Tell us about your project..."
+                required></textarea>
+              <div id="messageError" class="error-message">Please enter your message</div>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="px-10 py-4 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 
                          font-semibold hover:scale-105 transition-all duration-300 
                          shadow-xl hover:shadow-cyan-500/30">
-              Send Message <i class="fas fa-paper-plane ml-2"></i>
-            </button>
+                Send Message <i class="fas fa-paper-plane ml-2"></i>
+              </button>
+            </div>
+            <p class="text-xs text-gray-400 text-center mt-4">
+              By submitting this form, you agree to our <a href="terms-and-conditions.html"
+                class="text-cyan-400 hover:underline">Terms & Conditions</a>
+            </p>
+          </form>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="flex flex-col justify-center">
+          <div class="mb-10">
+            <h4 class="text-2xl font-bold mb-6">Contact Information</h4>
+            <p class="text-gray-300 mb-8">We'd love to hear from you. Reach out through any channel.</p>
           </div>
-          <p class="text-xs text-gray-400 text-center mt-4">
-            By submitting this form, you agree to our <a href="terms-and-conditions.html" class="text-cyan-400 hover:underline">Terms & Conditions</a>
-          </p>
-        </form>
+
+          <div class="space-y-8">
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 flex items-center justify-center">
+                <i class="fas fa-map-marker-alt text-white"></i>
+              </div>
+              <div>
+                <h5 class="font-bold text-lg mb-1">Our Office</h5>
+                <p class="text-gray-300"> Jaihind Enclave, Madhapur</p>
+                <p class="text-gray-300"> Hyderabad - 500081, Telangana</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 flex items-center justify-center">
+                <i class="fas fa-phone-alt text-white"></i>
+              </div>
+              <div>
+                <h5 class="font-bold text-lg mb-1">Phone Number</h5>
+                <p class="text-gray-300">+91 96764 64756</p>
+                <p class="text-gray-300">Mon-Fri, 9:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div
+                class="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-cyan-500 flex items-center justify-center">
+                <i class="fas fa-envelope text-white"></i>
+              </div>
+              <div>
+                <h5 class="font-bold text-lg mb-1">Email Address</h5>
+                <p class="text-gray-300">info@atirathtechnologies.com</p>
+                <p class="text-gray-300">response within 24 hours</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h5 class="font-bold text-lg mb-6">Follow Us</h5>
+            <div class="flex space-x-6">
+              <a href="https://www.facebook.com/profile.php?id=61585464714844" class="social-btn facebook"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-btn twitter" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/atirath-technologies-india/" class="social-btn linkedin"
+                target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/atirath_technologies?igsh=OTVraThwaXNlZXU4"
+                class="social-btn instagram" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <!-- Contact Information -->
-      <div class="flex flex-col justify-center">
-        <div class="mb-10">
-          <h4 class="text-2xl font-bold mb-6">Contact Information</h4>
-          <p class="text-gray-300 mb-8">We'd love to hear from you. Reach out through any channel.</p>
-        </div>
-        
-        <div class="space-y-8">
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 flex items-center justify-center">
-              <i class="fas fa-map-marker-alt text-white"></i>
-            </div>
-            <div>
-              <h5 class="font-bold text-lg mb-1">Our Office</h5>
-              <p class="text-gray-300"> Jaihind Enclave, Madhapur</p>
-              <p class="text-gray-300"> Hyderabad - 500081, Telangana</p>
-            </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="py-16 unique-footer">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="footer-grid">
+        <!-- Column 1 -->
+        <div class="footer-column">
+          <div class="flex items-center gap-2 mb-6">
+            <img src="AT 12.png" alt="Atirath Technology Logo" class="navbar-logo"
+              style="width:265px; height:60px; max-width:none;">
+
           </div>
-          
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-violet-600 to-pink-500 flex items-center justify-center">
-              <i class="fas fa-phone-alt text-white"></i>
-            </div>
-            <div>
-              <h5 class="font-bold text-lg mb-1">Phone Number</h5>
-              <p class="text-gray-300">+91 96764 64756</p>
-              <p class="text-gray-300">Mon-Fri, 9:00 AM - 6:00 PM</p>
-            </div>
-          </div>
-          
-          <div class="flex items-start gap-4">
-            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-pink-500 to-cyan-500 flex items-center justify-center">
-              <i class="fas fa-envelope text-white"></i>
-            </div>
-            <div>
-              <h5 class="font-bold text-lg mb-1">Email Address</h5>
-              <p class="text-gray-300">info@atirathtechnologies.com</p>
-              <p class="text-gray-300">response within 24 hours</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="mt-12">
-          <h5 class="font-bold text-lg mb-6">Follow Us</h5>
-          <div class="flex space-x-6">
-            <a href="https://www.facebook.com/profile.php?id=61585464714844" class="social-btn facebook" target="_blank" rel="noopener noreferrer">
+          <p class="text-gray-400 mb-6">
+            Transforming businesses through innovative digital solutions. Your trusted partner for digital growth.
+          </p>
+          <div class="flex space-x-4">
+            <a href="https://www.facebook.com/profile.php?id=61585464714844" class="social-btn facebook"
+              target="_blank">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="#" class="social-btn twitter" target="_blank" rel="noopener noreferrer">
+            <a href="#" class="social-btn twitter" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
-            <a href="https://www.linkedin.com/company/atirath-technologies-india/" class="social-btn linkedin" target="_blank" rel="noopener noreferrer">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://www.instagram.com/atirath_technologies?igsh=OTVraThwaXNlZXU4" class="social-btn instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/atirath_technologies?igsh=OTVraThwaXNlZXU4" class="social-btn instagram"
+              target="_blank">
               <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/atirath-technologies-india/" class="social-btn linkedin"
+              target="_blank">
+              <i class="fab fa-linkedin-in"></i>
             </a>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- ===== Footer ===== -->
-<footer class="py-16 unique-footer">
-  <div class="max-w-7xl mx-auto px-6">
-    <div class="footer-grid">
-      <!-- Column 1 -->
-      <div class="footer-column">
-        <div class="flex items-center gap-2 mb-6">
-         <img src="AT 12.png" alt="Atirath Technology Logo" class="navbar-logo"
-            style="width:265px; height:60px; max-width:none;">
-          
+        <!-- Column 2 -->
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul class="space-y-3">
+            <li><a href="#home" class="text-gray-400 hover:text-cyan-400 transition">Home</a></li>
+            <li><a href="about.html" class="text-gray-400 hover:text-cyan-400 transition">About Us</a></li>
+            <li><a href="#services" class="text-gray-400 hover:text-cyan-400 transition">Services</a></li>
+            <li><a href="portfolio.html" class="text-gray-400 hover:text-cyan-400 transition">Portfolio</a></li>
+            <li><a href="#contact" class="text-gray-400 hover:text-cyan-400 transition">Contact</a></li>
+
+          </ul>
         </div>
-        <p class="text-gray-400 mb-6">
-          Transforming businesses through innovative digital solutions. Your trusted partner for digital growth.
+
+        <!-- Column 3 -->
+        <div class="footer-column">
+          <h4>Our Services</h4>
+          <ul class="space-y-3">
+            <li><a href="web-design.html" class="text-gray-400 hover:text-violet-400 transition">Web Design</a></li>
+            <li><a href="web-development.html" class="text-gray-400 hover:text-violet-400 transition">Web
+                Development</a></li>
+            <li><a href="mobile-app.html" class="text-gray-400 hover:text-blue-400 transition">Mobile Application</a>
+            </li>
+            <li><a href="digital-marketing.html" class="text-gray-400 hover:text-pink-400 transition">Digital
+                Marketing</a></li>
+            <li><a href="seo-optimization.html" class="text-gray-400 hover:text-green-400 transition">AEO & SEO
+                Strategies</a></li>
+            <li><a href="branding.html" class="text-gray-400 hover:text-yellow-400 transition">Branding</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-column">
+          <h4>Contact Us</h4>
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3">
+              <i class="fas fa-map-marker-alt text-cyan-400 mt-1"></i>
+              <a href="https://maps.app.goo.gl/TgcEpniUhi135C6RA?g_st=awb" target="_blank" rel="noopener noreferrer"
+                class="text-gray-400 hover:text-cyan-400 transition">
+                502, 5th Floor, Atirath Holdings India Limited
+              </a>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-phone-alt text-violet-400"></i>
+              <span class="text-gray-400">+91 96764 64756</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-envelope text-pink-400"></i>
+              <span class="text-gray-400">info@atirathtechnologies.com</span>
+            </li>
+            <li class="flex items-center gap-3">
+              <i class="fas fa-clock text-green-400"></i>
+              <span class="text-gray-400">Mon-Fri: 9AM-6PM</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-800 pt-8 mt-8 text-center">
+        <p class="text-gray-400">© 2025 Atirath Technologies. All Rights Reserved. | Digital Growth Partner</p>
+        <p class="text-gray-500 text-sm mt-2">Transforming businesses through innovative digital solutions</p>
+        <p class="text-gray-500 text-sm mt-1">
+          <a href="terms-and-conditions.html" class="text-cyan-400 hover:underline">Terms & Conditions</a> |
+          <a href="privacypolicy.html" class="text-cyan-400 hover:underline">Privacy Policy</a>
         </p>
-        <div class="flex space-x-4">
-          <a href="https://www.facebook.com/profile.php?id=61585464714844" class="social-btn facebook" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" class="social-btn twitter" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://www.instagram.com/atirath_technologies?igsh=OTVraThwaXNlZXU4" class="social-btn instagram" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="https://www.linkedin.com/company/atirath-technologies-india/" class="social-btn linkedin" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-      </div>
-      
-      <!-- Column 2 -->
-      <div class="footer-column">
-        <h4>Quick Links</h4>
-        <ul class="space-y-3">
-          <li><a href="#home" class="text-gray-400 hover:text-cyan-400 transition">Home</a></li>
-          <li><a href="about.html" class="text-gray-400 hover:text-cyan-400 transition">About Us</a></li>
-          <li><a href="#services" class="text-gray-400 hover:text-cyan-400 transition">Services</a></li>
-          <li><a href="portfolio.html" class="text-gray-400 hover:text-cyan-400 transition">Portfolio</a></li>
-          <li><a href="#contact" class="text-gray-400 hover:text-cyan-400 transition">Contact</a></li>
-         
-        </ul>
-      </div>
-      
-      <!-- Column 3 -->
-      <div class="footer-column">
-        <h4>Our Services</h4>
-        <ul class="space-y-3">
-          <li><a href="web-design.html" class="text-gray-400 hover:text-violet-400 transition">Web Design</a></li>
-          <li><a href="web-development.html" class="text-gray-400 hover:text-violet-400 transition">Web Development</a></li>
-          <li><a href="mobile-app.html" class="text-gray-400 hover:text-blue-400 transition">Mobile Application</a></li>
-          <li><a href="digital-marketing.html" class="text-gray-400 hover:text-pink-400 transition">Digital Marketing</a></li>
-          <li><a href="seo-optimization.html" class="text-gray-400 hover:text-green-400 transition">AEO & SEO Strategies</a></li>
-          <li><a href="branding.html" class="text-gray-400 hover:text-yellow-400 transition">Branding</a></li>
-        </ul>
-      </div>
-      
-      <!-- Column 4 -->
-      <div class="footer-column">
-        <h4>Contact Us</h4>
-        <ul class="space-y-4">
-          <li class="flex items-start gap-3">
-            <i class="fas fa-map-marker-alt text-cyan-400 mt-1"></i>
-            <a href="https://maps.app.goo.gl/TgcEpniUhi135C6RA?g_st=awb" 
-   target="_blank" 
-   rel="noopener noreferrer" 
-   class="text-gray-400 hover:text-cyan-400 transition">
-   502, 5th Floor, Atirath Holdings India Limited
-</a>
-          </li>
-          <li class="flex items-center gap-3">
-            <i class="fas fa-phone-alt text-violet-400"></i>
-            <span class="text-gray-400">+91 96764 64756</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <i class="fas fa-envelope text-pink-400"></i>
-            <span class="text-gray-400">info@atirathtechnologies.com</span>
-          </li>
-          <li class="flex items-center gap-3">
-            <i class="fas fa-clock text-green-400"></i>
-            <span class="text-gray-400">Mon-Fri: 9AM-6PM</span>
-          </li>
-        </ul>
       </div>
     </div>
-    
-    <div class="border-t border-gray-800 pt-8 mt-8 text-center">
-      <p class="text-gray-400">© 2025 Atirath Technologies. All Rights Reserved. | Digital Growth Partner</p>
-      <p class="text-gray-500 text-sm mt-2">Transforming businesses through innovative digital solutions</p>
-      <p class="text-gray-500 text-sm mt-1">
-        <a href="terms-and-conditions.html" class="text-cyan-400 hover:underline">Terms & Conditions</a> | 
-        <a href="privacypolicy.html" class="text-cyan-400 hover:underline">Privacy Policy</a>
-      </p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-<script>
-  // Mobile Menu Functionality
-  const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-  const mobileMenuSlide = document.getElementById('mobileMenuSlide');
-  const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
-  const mobileCloseBtn = document.getElementById('mobileCloseBtn');
-  const mobileServicesToggle = document.querySelector('.mobile-services-toggle');
-  const mobileServicesSubmenu = document.getElementById('mobileServicesSubmenu');
-  
-  // Toggle mobile menu
-  function toggleMobileMenu() {
-    mobileMenuSlide.classList.toggle('show');
-    mobileMenuOverlay.classList.toggle('show');
-    document.body.style.overflow = mobileMenuSlide.classList.contains('show') ? 'hidden' : 'auto';
-  }
-  
-  // Open mobile menu
-  mobileMenuBtn.addEventListener('click', toggleMobileMenu);
-  
-  // Close mobile menu
-  mobileCloseBtn.addEventListener('click', toggleMobileMenu);
-  mobileMenuOverlay.addEventListener('click', toggleMobileMenu);
-  
-  // Toggle services submenu
-  let isServicesOpen = false;
-  mobileServicesToggle.addEventListener('click', function(e) {
-    e.preventDefault();
-    isServicesOpen = !isServicesOpen;
-    
-    // Toggle submenu
-    mobileServicesSubmenu.classList.toggle('show');
-    
-    // Change icon
-    const icon = this.querySelector('i');
-    if (isServicesOpen) {
-      icon.classList.remove('fa-chevron-down');
-      icon.classList.add('fa-chevron-up');
-    } else {
-      icon.classList.remove('fa-chevron-up');
-      icon.classList.add('fa-chevron-down');
+  <script>
+    // Mobile Menu Functionality
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenuSlide = document.getElementById('mobileMenuSlide');
+    const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+    const mobileCloseBtn = document.getElementById('mobileCloseBtn');
+    const mobileServicesToggle = document.querySelector('.mobile-services-toggle');
+    const mobileServicesSubmenu = document.getElementById('mobileServicesSubmenu');
+
+    // Toggle mobile menu
+    function toggleMobileMenu() {
+      mobileMenuSlide.classList.toggle('show');
+      mobileMenuOverlay.classList.toggle('show');
+      document.body.style.overflow = mobileMenuSlide.classList.contains('show') ? 'hidden' : 'auto';
     }
-  });
-  
-  // Close mobile menu when clicking on links (except services toggle)
-  document.querySelectorAll('.mobile-menu-link').forEach(link => {
-    if (!link.classList.contains('mobile-services-toggle')) {
-      link.addEventListener('click', function(e) {
-        const href = this.getAttribute('href');
-        
-        // If it's a services link (scrolling to services section)
-        if (href === '#services') {
-          e.preventDefault();
-          toggleMobileMenu();
-          
-          // Scroll to services section after menu closes
-          setTimeout(() => {
-            document.getElementById('services').scrollIntoView({
-              behavior: 'smooth'
-            });
-          }, 400);
-        }
-        // For other links, close menu
-        else if (!href.startsWith('javascript')) {
-          toggleMobileMenu();
-        }
+
+    // Open mobile menu
+    mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+
+    // Close mobile menu
+    mobileCloseBtn.addEventListener('click', toggleMobileMenu);
+    mobileMenuOverlay.addEventListener('click', toggleMobileMenu);
+
+    // Toggle services submenu
+    let isServicesOpen = false;
+    mobileServicesToggle.addEventListener('click', function (e) {
+      e.preventDefault();
+      isServicesOpen = !isServicesOpen;
+
+      // Toggle submenu
+      mobileServicesSubmenu.classList.toggle('show');
+
+      // Change icon
+      const icon = this.querySelector('i');
+      if (isServicesOpen) {
+        icon.classList.remove('fa-chevron-down');
+        icon.classList.add('fa-chevron-up');
+      } else {
+        icon.classList.remove('fa-chevron-up');
+        icon.classList.add('fa-chevron-down');
+      }
+    });
+
+    // Close mobile menu when clicking on links (except services toggle)
+    document.querySelectorAll('.mobile-menu-link').forEach(link => {
+      if (!link.classList.contains('mobile-services-toggle')) {
+        link.addEventListener('click', function (e) {
+          const href = this.getAttribute('href');
+
+          // If it's a services link (scrolling to services section)
+          if (href === '#services') {
+            e.preventDefault();
+            toggleMobileMenu();
+
+            // Scroll to services section after menu closes
+            setTimeout(() => {
+              document.getElementById('services').scrollIntoView({
+                behavior: 'smooth'
+              });
+            }, 400);
+          }
+          // For other links, close menu
+          else if (!href.startsWith('javascript')) {
+            toggleMobileMenu();
+          }
+        });
+      }
+    });
+
+    // Close menu on escape key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && mobileMenuSlide.classList.contains('show')) {
+        toggleMobileMenu();
+      }
+    });
+
+    // Create floating particles
+    function createParticles() {
+      const particlesContainer = document.getElementById('particles');
+      if (!particlesContainer) return;
+
+      const particleCount = 50;
+
+      for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+
+        particle.style.left = `${Math.random() * 100}vw`;
+        particle.style.top = `${Math.random() * 100}vh`;
+
+        const size = Math.random() * 4 + 1;
+        particle.style.width = `${size}px`;
+        particle.style.height = `${size}px`;
+
+        particle.style.animationDelay = `${Math.random() * 20}s`;
+
+        const colors = ['#7cfaff', '#8b5cf6', '#ff6b9d'];
+        particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+        particlesContainer.appendChild(particle);
+      }
+    }
+
+    // Auto-duplicate cards for seamless rotation
+    function duplicateCardsForRotation() {
+      const cardsTrack = document.querySelector('.cards-track');
+      if (!cardsTrack) return;
+
+      const cards = Array.from(cardsTrack.children);
+      cards.forEach(card => {
+        const clone = card.cloneNode(true);
+        cardsTrack.appendChild(clone);
+      });
+
+      cards.forEach(card => {
+        const clone = card.cloneNode(true);
+        cardsTrack.appendChild(clone);
       });
     }
-  });
-  
-  // Close menu on escape key
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && mobileMenuSlide.classList.contains('show')) {
-      toggleMobileMenu();
+
+    // WhatsApp Normal Number - YOUR ACTUAL WHATSAPP NUMBER
+    const WHATSAPP_NORMAL_NUMBER = "919676464756"; // +91 96764 64756 without spaces or +
+
+    // Function to validate Indian phone number (exactly 10 digits)
+    function validateIndianPhoneNumber(phone) {
+      // Remove all non-digit characters
+      const cleaned = phone.replace(/\D/g, '');
+
+      // Check if it's exactly 10 digits and starts with 6-9
+      return /^[6-9]\d{9}$/.test(cleaned);
     }
-  });
 
-  // Create floating particles
-  function createParticles() {
-    const particlesContainer = document.getElementById('particles');
-    if (!particlesContainer) return;
-    
-    const particleCount = 50;
-    
-    for (let i = 0; i < particleCount; i++) {
-      const particle = document.createElement('div');
-      particle.className = 'particle';
-      
-      particle.style.left = `${Math.random() * 100}vw`;
-      particle.style.top = `${Math.random() * 100}vh`;
-      
-      const size = Math.random() * 4 + 1;
-      particle.style.width = `${size}px`;
-      particle.style.height = `${size}px`;
-      
-      particle.style.animationDelay = `${Math.random() * 20}s`;
-      
-      const colors = ['#7cfaff', '#8b5cf6', '#ff6b9d'];
-      particle.style.background = colors[Math.floor(Math.random() * colors.length)];
-      
-      particlesContainer.appendChild(particle);
-    }
-  }
+    // Form validation
+    function validateForm() {
+      let isValid = true;
 
-  // Auto-duplicate cards for seamless rotation
-  function duplicateCardsForRotation() {
-    const cardsTrack = document.querySelector('.cards-track');
-    if (!cardsTrack) return;
-    
-    const cards = Array.from(cardsTrack.children);
-    cards.forEach(card => {
-      const clone = card.cloneNode(true);
-      cardsTrack.appendChild(clone);
-    });
-    
-    cards.forEach(card => {
-      const clone = card.cloneNode(true);
-      cardsTrack.appendChild(clone);
-    });
-  }
-
-  // WhatsApp Normal Number - YOUR ACTUAL WHATSAPP NUMBER
-  const WHATSAPP_NORMAL_NUMBER = "919676464756"; // +91 96764 64756 without spaces or +
-
-  // Function to validate Indian phone number (exactly 10 digits)
-  function validateIndianPhoneNumber(phone) {
-    // Remove all non-digit characters
-    const cleaned = phone.replace(/\D/g, '');
-    
-    // Check if it's exactly 10 digits and starts with 6-9
-    return /^[6-9]\d{9}$/.test(cleaned);
-  }
-
-  // Form validation
-  function validateForm() {
-    let isValid = true;
-    
-    // Name validation
-    const nameInput = document.getElementById('name');
-    const nameError = document.getElementById('nameError');
-    if (!nameInput.value.trim()) {
-      nameInput.classList.add('invalid');
-      nameInput.classList.remove('valid');
-      nameError.classList.add('show');
-      isValid = false;
-    } else {
-      nameInput.classList.remove('invalid');
-      nameInput.classList.add('valid');
-      nameError.classList.remove('show');
-    }
-    
-    // Email validation
-    const emailInput = document.getElementById('email');
-    const emailError = document.getElementById('emailError');
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailInput.value.trim() || !emailRegex.test(emailInput.value)) {
-      emailInput.classList.add('invalid');
-      emailInput.classList.remove('valid');
-      emailError.classList.add('show');
-      isValid = false;
-    } else {
-      emailInput.classList.remove('invalid');
-      emailInput.classList.add('valid');
-      emailError.classList.remove('show');
-    }
-    
-    // Phone validation - EXACTLY 10 DIGITS
-    const phoneInput = document.getElementById('phone');
-    const phoneError = document.getElementById('phoneError');
-    const countryCode = document.getElementById('countryCode').value;
-    
-    // Get only digits from phone input
-    const phoneDigits = phoneInput.value.replace(/\D/g, '');
-    
-    // For India (+91), validate exactly 10 digits
-    if (countryCode === '+91') {
-      if (!validateIndianPhoneNumber(phoneInput.value)) {
-        phoneInput.classList.add('invalid');
-        phoneInput.classList.remove('valid');
-        phoneError.textContent = 'Please enter exactly 10 digits starting with 6-9';
-        phoneError.classList.add('show');
+      // Name validation
+      const nameInput = document.getElementById('name');
+      const nameError = document.getElementById('nameError');
+      if (!nameInput.value.trim()) {
+        nameInput.classList.add('invalid');
+        nameInput.classList.remove('valid');
+        nameError.classList.add('show');
         isValid = false;
       } else {
-        phoneInput.classList.remove('invalid');
-        phoneInput.classList.add('valid');
-        phoneError.classList.remove('show');
+        nameInput.classList.remove('invalid');
+        nameInput.classList.add('valid');
+        nameError.classList.remove('show');
       }
-    } else {
-      // For other countries, basic validation
-      if (phoneDigits.length < 6 || phoneDigits.length > 15) {
-        phoneInput.classList.add('invalid');
-        phoneInput.classList.remove('valid');
-        phoneError.textContent = 'Please enter a valid phone number';
-        phoneError.classList.add('show');
+
+      // Email validation
+      const emailInput = document.getElementById('email');
+      const emailError = document.getElementById('emailError');
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailInput.value.trim() || !emailRegex.test(emailInput.value)) {
+        emailInput.classList.add('invalid');
+        emailInput.classList.remove('valid');
+        emailError.classList.add('show');
         isValid = false;
       } else {
-        phoneInput.classList.remove('invalid');
-        phoneInput.classList.add('valid');
-        phoneError.classList.remove('show');
+        emailInput.classList.remove('invalid');
+        emailInput.classList.add('valid');
+        emailError.classList.remove('show');
       }
-    }
-    
-    // Message validation
-    const messageInput = document.getElementById('message');
-    const messageError = document.getElementById('messageError');
-    if (!messageInput.value.trim()) {
-      messageInput.classList.add('invalid');
-      messageInput.classList.remove('valid');
-      messageError.classList.add('show');
-      isValid = false;
-    } else {
-      messageInput.classList.remove('invalid');
-      messageInput.classList.add('valid');
-      messageError.classList.remove('show');
-    }
-    
-    return isValid;
-  }
 
-  // Function to redirect to WhatsApp with form data
-  function redirectToWhatsApp(formData) {
-    const { name, email, phone, countryCode, service, message } = formData;
-    
-    // Create the WhatsApp message
-    const whatsappMessage = `*New Contact Form Submission*%0A%0A` +
-                           `*Name:* ${name}%0A` +
-                           `*Email:* ${email}%0A` +
-                           `*Phone:* ${countryCode} ${phone}%0A` +
-                           `*Service Interested:* ${service || 'Not specified'}%0A` +
-                           `*Message:* ${message}%0A%0A` +
-                           `_Submitted via Atirath Technologies Website_`;
-    
-    // Create WhatsApp URL
-    const whatsappURL = `https://wa.me/${WHATSAPP_NORMAL_NUMBER}?text=${whatsappMessage}`;
-    
-    // Open WhatsApp in new tab
-    window.open(whatsappURL, '_blank');
-  }
-
-  // Form submission
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    if (validateForm()) {
-      // Get form data
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
+      // Phone validation - EXACTLY 10 DIGITS
+      const phoneInput = document.getElementById('phone');
+      const phoneError = document.getElementById('phoneError');
       const countryCode = document.getElementById('countryCode').value;
-      const phone = document.getElementById('phone').value.replace(/\D/g, '');
-      const service = document.getElementById('service').value;
-      const message = document.getElementById('message').value.trim();
-      
-      // Prepare form data object
-      const formData = {
-        name,
-        email,
-        phone,
-        countryCode,
-        service,
-        message
-      };
-      
-      // Show loading state
-      const submitBtn = this.querySelector('button[type="submit"]');
-      const originalText = submitBtn.innerHTML;
-      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Redirecting...';
-      submitBtn.disabled = true;
-      
-      // Redirect to WhatsApp after a brief delay
-      setTimeout(() => {
-        redirectToWhatsApp(formData);
-        
-        // Reset form
-        this.reset();
-        
-        // Set default country code back to India
-        document.getElementById('countryCode').value = '+91';
-        
-        // Remove validation classes
-        document.querySelectorAll('.form-input').forEach(input => {
-          input.classList.remove('valid', 'invalid');
-        });
-        
-        // Hide error messages
-        document.querySelectorAll('.error-message').forEach(error => {
-          error.classList.remove('show');
-        });
-        
-        // Restore button state
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-        
-        // Show success message
-        alert(`Thank you ${name}! You're being redirected to WhatsApp to complete your inquiry.`);
-      }, 1000);
-    }
-  });
 
-  // Real-time validation for phone input (only digits, max 10)
-  document.getElementById('phone').addEventListener('input', function() {
-    // Allow only digits
-    this.value = this.value.replace(/\D/g, '');
-    
-    // Limit to 10 digits for Indian numbers
-    const countryCode = document.getElementById('countryCode').value;
-    if (countryCode === '+91' && this.value.length > 10) {
-      this.value = this.value.slice(0, 10);
+      // Get only digits from phone input
+      const phoneDigits = phoneInput.value.replace(/\D/g, '');
+
+      // For India (+91), validate exactly 10 digits
+      if (countryCode === '+91') {
+        if (!validateIndianPhoneNumber(phoneInput.value)) {
+          phoneInput.classList.add('invalid');
+          phoneInput.classList.remove('valid');
+          phoneError.textContent = 'Please enter exactly 10 digits starting with 6-9';
+          phoneError.classList.add('show');
+          isValid = false;
+        } else {
+          phoneInput.classList.remove('invalid');
+          phoneInput.classList.add('valid');
+          phoneError.classList.remove('show');
+        }
+      } else {
+        // For other countries, basic validation
+        if (phoneDigits.length < 6 || phoneDigits.length > 15) {
+          phoneInput.classList.add('invalid');
+          phoneInput.classList.remove('valid');
+          phoneError.textContent = 'Please enter a valid phone number';
+          phoneError.classList.add('show');
+          isValid = false;
+        } else {
+          phoneInput.classList.remove('invalid');
+          phoneInput.classList.add('valid');
+          phoneError.classList.remove('show');
+        }
+      }
+
+      // Message validation
+      const messageInput = document.getElementById('message');
+      const messageError = document.getElementById('messageError');
+      if (!messageInput.value.trim()) {
+        messageInput.classList.add('invalid');
+        messageInput.classList.remove('valid');
+        messageError.classList.add('show');
+        isValid = false;
+      } else {
+        messageInput.classList.remove('invalid');
+        messageInput.classList.add('valid');
+        messageError.classList.remove('show');
+      }
+
+      return isValid;
     }
-    
-    // Validate
-    const phoneError = document.getElementById('phoneError');
-    const phoneDigits = this.value.replace(/\D/g, '');
-    
-    if (countryCode === '+91') {
-      if (phoneDigits.length === 10 && validateIndianPhoneNumber(this.value)) {
-        this.classList.remove('invalid');
-        this.classList.add('valid');
-        phoneError.classList.remove('show');
-      } else if (phoneDigits.length > 0) {
+
+    // Function to redirect to WhatsApp with form data
+    function redirectToWhatsApp(formData) {
+      const { name, email, phone, countryCode, service, message } = formData;
+
+      // Create the WhatsApp message
+      const whatsappMessage = `*New Contact Form Submission*%0A%0A` +
+        `*Name:* ${name}%0A` +
+        `*Email:* ${email}%0A` +
+        `*Phone:* ${countryCode} ${phone}%0A` +
+        `*Service Interested:* ${service || 'Not specified'}%0A` +
+        `*Message:* ${message}%0A%0A` +
+        `_Submitted via Atirath Technologies Website_`;
+
+      // Create WhatsApp URL
+      const whatsappURL = `https://wa.me/${WHATSAPP_NORMAL_NUMBER}?text=${whatsappMessage}`;
+
+      // Open WhatsApp in new tab
+      window.open(whatsappURL, '_blank');
+    }
+
+    // Form submission
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      if (validateForm()) {
+        // Get form data
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const countryCode = document.getElementById('countryCode').value;
+        const phone = document.getElementById('phone').value.replace(/\D/g, '');
+        const service = document.getElementById('service').value;
+        const message = document.getElementById('message').value.trim();
+
+        // Prepare form data object
+        const formData = {
+          name,
+          email,
+          phone,
+          countryCode,
+          service,
+          message
+        };
+
+        // Show loading state
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalText = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Redirecting...';
+        submitBtn.disabled = true;
+
+        // Redirect to WhatsApp after a brief delay
+        setTimeout(() => {
+          redirectToWhatsApp(formData);
+
+          // Reset form
+          this.reset();
+
+          // Set default country code back to India
+          document.getElementById('countryCode').value = '+91';
+
+          // Remove validation classes
+          document.querySelectorAll('.form-input').forEach(input => {
+            input.classList.remove('valid', 'invalid');
+          });
+
+          // Hide error messages
+          document.querySelectorAll('.error-message').forEach(error => {
+            error.classList.remove('show');
+          });
+
+          // Restore button state
+          submitBtn.innerHTML = originalText;
+          submitBtn.disabled = false;
+
+          // Show success message
+          alert(`Thank you ${name}! You're being redirected to WhatsApp to complete your inquiry.`);
+        }, 1000);
+      }
+    });
+
+    // Real-time validation for phone input (only digits, max 10)
+    document.getElementById('phone').addEventListener('input', function () {
+      // Allow only digits
+      this.value = this.value.replace(/\D/g, '');
+
+      // Limit to 10 digits for Indian numbers
+      const countryCode = document.getElementById('countryCode').value;
+      if (countryCode === '+91' && this.value.length > 10) {
+        this.value = this.value.slice(0, 10);
+      }
+
+      // Validate
+      const phoneError = document.getElementById('phoneError');
+      const phoneDigits = this.value.replace(/\D/g, '');
+
+      if (countryCode === '+91') {
+        if (phoneDigits.length === 10 && validateIndianPhoneNumber(this.value)) {
+          this.classList.remove('invalid');
+          this.classList.add('valid');
+          phoneError.classList.remove('show');
+        } else if (phoneDigits.length > 0) {
+          this.classList.add('invalid');
+          this.classList.remove('valid');
+          phoneError.textContent = 'Please enter exactly 10 digits starting with 6-9';
+          phoneError.classList.add('show');
+        } else {
+          this.classList.remove('invalid', 'valid');
+          phoneError.classList.remove('show');
+        }
+      }
+    });
+
+    // Update phone validation when country code changes
+    document.getElementById('countryCode').addEventListener('change', function () {
+      const phoneInput = document.getElementById('phone');
+      const phoneError = document.getElementById('phoneError');
+
+      // Clear phone input and reset validation
+      phoneInput.value = '';
+      phoneInput.classList.remove('invalid', 'valid');
+      phoneError.classList.remove('show');
+
+      // Update placeholder based on country
+      switch (this.value) {
+        case '+1':
+          phoneInput.placeholder = 'Enter US phone number';
+          phoneInput.maxLength = 10;
+          break;
+        case '+91':
+          phoneInput.placeholder = '9876543210';
+          phoneInput.maxLength = 10;
+          break;
+        case '+44':
+          phoneInput.placeholder = 'Enter UK phone number';
+          phoneInput.maxLength = 11;
+          break;
+        default:
+          phoneInput.placeholder = 'Phone number';
+          phoneInput.maxLength = 15;
+      }
+    });
+
+    // Real-time validation for other fields
+    document.getElementById('name').addEventListener('input', function () {
+      const error = document.getElementById('nameError');
+      if (!this.value.trim()) {
         this.classList.add('invalid');
         this.classList.remove('valid');
-        phoneError.textContent = 'Please enter exactly 10 digits starting with 6-9';
-        phoneError.classList.add('show');
+        error.classList.add('show');
       } else {
-        this.classList.remove('invalid', 'valid');
-        phoneError.classList.remove('show');
+        this.classList.remove('invalid');
+        this.classList.add('valid');
+        error.classList.remove('show');
+      }
+    });
+
+    document.getElementById('email').addEventListener('input', function () {
+      const error = document.getElementById('emailError');
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!this.value.trim() || !emailRegex.test(this.value)) {
+        this.classList.add('invalid');
+        this.classList.remove('valid');
+        error.classList.add('show');
+      } else {
+        this.classList.remove('invalid');
+        this.classList.add('valid');
+        error.classList.remove('show');
+      }
+    });
+
+    document.getElementById('message').addEventListener('input', function () {
+      const error = document.getElementById('messageError');
+      if (!this.value.trim()) {
+        this.classList.add('invalid');
+        this.classList.remove('valid');
+        error.classList.add('show');
+      } else {
+        this.classList.remove('invalid');
+        this.classList.add('valid');
+        error.classList.remove('show');
+      }
+    });
+
+    // Scroll arrow visibility
+    function handleScrollArrow() {
+      const scrollArrow = document.getElementById('scrollArrow');
+      const scrollPosition = window.scrollY;
+
+      if (scrollPosition > 300) {
+        scrollArrow.classList.add('show');
+      } else {
+        scrollArrow.classList.remove('show');
       }
     }
-  });
 
-  // Update phone validation when country code changes
-  document.getElementById('countryCode').addEventListener('change', function() {
-    const phoneInput = document.getElementById('phone');
-    const phoneError = document.getElementById('phoneError');
-    
-    // Clear phone input and reset validation
-    phoneInput.value = '';
-    phoneInput.classList.remove('invalid', 'valid');
-    phoneError.classList.remove('show');
-    
-    // Update placeholder based on country
-    switch(this.value) {
-      case '+1':
-        phoneInput.placeholder = 'Enter US phone number';
-        phoneInput.maxLength = 10;
-        break;
-      case '+91':
-        phoneInput.placeholder = '9876543210';
-        phoneInput.maxLength = 10;
-        break;
-      case '+44':
-        phoneInput.placeholder = 'Enter UK phone number';
-        phoneInput.maxLength = 11;
-        break;
-      default:
-        phoneInput.placeholder = 'Phone number';
-        phoneInput.maxLength = 15;
-    }
-  });
-
-  // Real-time validation for other fields
-  document.getElementById('name').addEventListener('input', function() {
-    const error = document.getElementById('nameError');
-    if (!this.value.trim()) {
-      this.classList.add('invalid');
-      this.classList.remove('valid');
-      error.classList.add('show');
-    } else {
-      this.classList.remove('invalid');
-      this.classList.add('valid');
-      error.classList.remove('show');
-    }
-  });
-
-  document.getElementById('email').addEventListener('input', function() {
-    const error = document.getElementById('emailError');
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!this.value.trim() || !emailRegex.test(this.value)) {
-      this.classList.add('invalid');
-      this.classList.remove('valid');
-      error.classList.add('show');
-    } else {
-      this.classList.remove('invalid');
-      this.classList.add('valid');
-      error.classList.remove('show');
-    }
-  });
-
-  document.getElementById('message').addEventListener('input', function() {
-    const error = document.getElementById('messageError');
-    if (!this.value.trim()) {
-      this.classList.add('invalid');
-      this.classList.remove('valid');
-      error.classList.add('show');
-    } else {
-      this.classList.remove('invalid');
-      this.classList.add('valid');
-      error.classList.remove('show');
-    }
-  });
-
-  // Scroll arrow visibility
-  function handleScrollArrow() {
-    const scrollArrow = document.getElementById('scrollArrow');
-    const scrollPosition = window.scrollY;
-    
-    if (scrollPosition > 300) {
-      scrollArrow.classList.add('show');
-    } else {
-      scrollArrow.classList.remove('show');
-    }
-  }
-
-  // Scroll to top function
-  document.getElementById('scrollArrow').addEventListener('click', function() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  });
-
-  // Launch Journey button functionality
-  document.getElementById('heroLaunchBtn').addEventListener('click', function() {
-    document.getElementById('contact').scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-
-  // Initialize on load
-  document.addEventListener('DOMContentLoaded', function() {
-    createParticles();
-    duplicateCardsForRotation();
-    
-    // Add smooth scrolling for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const targetId = this.getAttribute('href');
-        if (targetId === '#') return;
-        
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          window.scrollTo({
-            top: targetElement.offsetTop - 80,
-            behavior: 'smooth'
-          });
-        }
+    // Scroll to top function
+    document.getElementById('scrollArrow').addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
     });
-    
-    // Initial check for scroll arrow
-    handleScrollArrow();
-    
-    // Listen for scroll events
-    window.addEventListener('scroll', handleScrollArrow);
-  });
-</script>
+
+    // Launch Journey button functionality
+    document.getElementById('heroLaunchBtn').addEventListener('click', function () {
+      document.getElementById('contact').scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+
+    // Initialize on load
+    document.addEventListener('DOMContentLoaded', function () {
+      createParticles();
+      duplicateCardsForRotation();
+
+      // Add smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Initial check for scroll arrow
+      handleScrollArrow();
+
+      // Listen for scroll events
+      window.addEventListener('scroll', handleScrollArrow);
+    });
+  </script>
 
 </body>
+
 </html>
