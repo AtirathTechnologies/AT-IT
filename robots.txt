@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Exclude drafts and internal testing files
+Disallow: /d1.html
+Disallow: /q.html
+Disallow: /q1.html
+
+Sitemap: https://atirathtechnologies.com/sitemap.xml
